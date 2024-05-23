@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-300 flex justify-center items-center h-[100vh]">
+    <form class="w-1/2 mx-auto bg-white p-4 rounded">
+        <input type="text" required class="border w-full p-3 my-2 outline-none name" placeholder="Your Name">
+        <div class="flex items-center">
+            <input type="password" required class="border w-full p-3 my-2 outline-none password" placeholder="Your Password">
+            <button type="button" class="p-3 eyes"><i class="fa-regular fa-eye text-xl"></i></button>
+            <button type="button" class="p-3 eyes2"><i class="fa-regular fa-eye-slash text-xl"></i></button>
+        </div>
+        <div class="flex items-center gap-2">
+            <button type="button" class="w-full p-3 my-2 bg-green-500 text-white rounded save">SAVE</button>
+            <button type="submit" class="w-full p-3 my-2 bg-blue-500 text-white rounded">LOGIN</button>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
